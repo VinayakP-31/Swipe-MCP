@@ -1,6 +1,6 @@
 import requests
 from constants import *
-from payload.invoice_payload import *
+from payload.payloads import *
 
 def new_invoice():
     response = requests.post(new_invoice_api, json=invoice_payload, headers=headers)

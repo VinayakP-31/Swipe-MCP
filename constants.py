@@ -15,6 +15,8 @@ add_new_customer_api = "https://app.getswipe.in/api/partner/v2/customer"
 
 get_customer_api = "https://app.getswipe.in/api/partner/v2/customer/{customer_id}"
 
+get_customer_list_api = "https://app.getswipe.in/api/partner/v2/customer/list"
+
 get_all_products_api = "https://app.getswipe.in/api/partner/v2/product/list"
 
 get_product_api = "https://app.getswipe.in/api/partner/v2/product/{item_id}"
